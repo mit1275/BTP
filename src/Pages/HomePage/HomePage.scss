@@ -1,0 +1,45 @@
+.homePage {
+  //background-color: #2192ff;
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+
+  .sideBar {
+    width: 15%;
+    height: 100vh;
+    display: flex;
+  }
+
+  .sideBarItems {
+    margin-left: 15%;
+    margin-top: 25%;
+    flex-direction: column;
+  }
+  .mainSection {
+    border-radius: 35px 0px 0px 0px;
+    width: 85%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+  }
+
+  .cardSection {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .card {
+    border-radius: 5%;
+    margin: 5%;
+    height: 100%;
+    width: 30%;
+    background-color: #eeeeee;
+  }
+
+  .rightSideMenu {
+    width: 15%;
+  }
+}
